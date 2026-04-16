@@ -3,17 +3,17 @@
 ví dụ: gg doc
 - VSC có 3 phần chính
   + Local: lưu ở máy cá nhân
-  + Centralize: lưu ở 1 máy chủ tập chung
+  + Centralized: lưu trên một máy chủ trung tâm
   + Distributed: lưu ở nhiều máy khác nhau
 
 # Git
-- Khái niệm: được viết bởi cha đẻ linux
+- Khái niệm: Git là hệ thống quản lý phiên bản phân tán, được viết bởi cha đẻ linux
 + Git là từ viết sai chính tả (có chủ đích) của get, do get đã được dùng rồi
-+ dùng git do nhu cầu quản lý phiên bản và làm việc giữa nhiều người vs nhau
++ Dùng git do nhu cầu quản lý phiên bản và làm việc giữa nhiều người vs nhau
 
-- so sánh git và các vsc khác 
-+ tính năng: Dễ dùng, có nhiều tính năng vượt trội: branching, tốc độ xử lý nhanh
-+ chi phí: free
+- So sánh git và các vsc khác 
++ Tính năng: Dễ dùng, có nhiều tính năng vượt trội: branching, tốc độ xử lý nhanh
++ Chi phí: free
 + Phổ biến: nhiều công ty sử dụng
 
 ![alt text](image.png)
@@ -25,8 +25,8 @@ ví dụ: gg doc
 + cấu hình : sau khi cài đặt xong, cần cấu hình git:
   + cho 1 repo :
 
-  git config user.name"<tencuaban>"
-  git config user.email"<emailcuaban>"
+  git config user.name "<tencuaban>"
+  git config user.email "<emailcuaban>"
 
   + cho toàn bộ máy tính (default)
 
@@ -53,7 +53,7 @@ ví dụ: gg doc
 - cách sử dụng 
  + commit message cần rõ ràng, chuyên nghiệp
  + trong lớp dùng convention sau:
-   <type>: <short_decription>
+   <type>: <short_description>
  + trong đó:
   - type: loại commit 
        + Chore: sửa nhỏ lẻ, chính tả, xoá file không dùng tới,...
@@ -61,7 +61,7 @@ ví dụ: gg doc
        + fix: sửa lỗi 1 test trước đó
   - short_description : mô tả ngắn gọn (50 ký tự), eng hoặc VN không dấu
   Ví dụ : 
-  + "Chore : remote unused file"
+  + "chore : remote unused file"
   + "feat : add code for exerciser 2"
   
   ![alt text](image-1.png)
@@ -71,8 +71,8 @@ ví dụ: gg doc
 + Giúp cho browser hoạt động được
 + top language
 + Bình thường Javascript chạy được do browser engine support
-  - edge: chaka
-  - filefox: spidermonkey
+  - edge: Chakra
+  - filefox: SpiderMonkey
   -chrome: V8
 + Để chạy được trên máy tính không cần trình duyệt, cần node js
 + run-time
@@ -107,11 +107,12 @@ trong đó: <ten_bien>
 
 + Khác nhau giữa var và let ?
 - var khai báo lại được, let thì không
-  var item1 = 'a';
-  var item2 = 'c'; // OK
+  var item = 'a';
+  var item = 'b'; // OK
 
-  let item2 = 'b'
-  let item2 = 'd' // error
+  let item = 'a';
+  let item = 'b'; // ERROR
+
 - Phạm vi của biến
  + var: phạm vi toàn cục (global)
  + let: phạm vi trong cặp ngoặc {}
@@ -122,7 +123,7 @@ Constant = hằng số. Dùng để khai báo các giá trị không thể thay 
  + Khai báo 
    - const <name> = <value>
   Ví dụ:
-   const frameWork = "Playwright";
+   const framework = "Playwright";
   sử dụng: 
   console.log(framework);
   Gán lại
@@ -159,7 +160,7 @@ cú pháp: if(<điều kiện>) {// code}
 nếu đk đúng code sẽ chạy
 ví dụ 
    if (5 > 3) {
-    console.log("5 lớn hơn 3)
+    console.log("5 lớn hơn 3")
 
    }
 
@@ -168,7 +169,7 @@ ví dụ
 - Cú pháp: for(<khơi tạo>; <điều kiện dừng>; <điều kiện tăng>)
 {//code}
 - ví dụ:
-for (let i = 1; i <= 10; i++>) {
+for (let i = 1; i <= 10; i++) {
     console.log("giá trị của i là: ", i)
 }
 
