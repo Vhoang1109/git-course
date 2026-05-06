@@ -6,13 +6,13 @@
     git commit --amend
     - Gõ i -> vào chế độ insert
     - Gõ esc để thoát insert
-    - GÕ ":wq" -> write and quit
-// cau lenh tong 
-git commit --amend -m "message"
+    - Gõ ":wq" -> write and quit
+          // cau lenh tong 
+           git commit --amend -m "message"
 
 + Đưa từ vùng staging về working directory
-   git restore --staged <file>
-![alt text](image.png)
+       git restore --staged <file>
+   ![alt text](image.png)
 
 + Đưa từ vùng repository về working directory (undocommit)
   git reset HEAD~1  (undo 1 commit)
@@ -26,9 +26,9 @@ git commit --amend -m "message"
   - backup file ra chỗ khác, copy lại.
   
   + Tạo branch
-    git branch <ten_branch>
-    git checkout <ten_branch>
-    git checkout -b <ten_branch>  (mer 2 cái trên)
+      git branch <ten_branch>
+      git checkout <ten_branch>
+      git checkout -b <ten_branch>  (mer 2 cái trên)
 
 Tips: luôn tạo branch mới trước khi copy từ internet
 ![alt text](image-2.png)
