@@ -7,8 +7,8 @@
     - Gõ i -> vào chế độ insert
     - Gõ esc để thoát insert
     - GÕ ":wq" -> write and quit
-    // cau lenh tong 
-    git commit --amend -m "message"
+// cau lenh tong 
+git commit --amend -m "message"
 
 + Đưa từ vùng staging về working directory
    git restore --staged <file>
@@ -34,12 +34,12 @@ Tips: luôn tạo branch mới trước khi copy từ internet
 ![alt text](image-2.png)
 
 + .gitignore file 
-  .gitignore = GitIgnore = bỏ qua
-   Dùng để bỏ qua các file không cần git theo dõi
-   Ignore file
-     <file_name>
-    Ignore folder
-    <folder-name>/
+.gitignore = GitIgnore = bỏ qua
+Dùng để bỏ qua các file không cần git theo dõi
+Ignore file
+<file_name>
+Ignore folder
+<folder-name>/
 
 # Javascript
 
@@ -61,15 +61,15 @@ console.log("Toi ten la" + name + "" )
 
 + Object 
 Đối tượng, dùng để lưu trữ tập hợp các giá trị vào cùng 1 biến hoặc hằng số
-  + Khai báo:
-   let/const <ten_object> = {
-    <thuoc_tinh>: <gia_tri>,
-    ...
-   }
++ Khai báo:
+let/const <ten_object> = {
+<thuoc_tinh>: <gia_tri>,
+...
+}
 
-  Trong đó:
-  - <thuoc_tinh>: giống quy tắc đặt tên biến
-  - <gia tri>: có kiểu giống biến hoặc là 1 object khác.
+Trong đó:
+- <thuoc_tinh>: giống quy tắc đặt tên biến
+- <gia tri>: có kiểu giống biến hoặc là 1 object khác.
 
 
 + Logical operator
@@ -88,8 +88,8 @@ console.log("Toi ten la" + name + "" )
 + Function (hàm) 
   Hàm, là đoạn code được đặt tên và có thể tái sử dụng, thực hiện 1 nhiệm vụ hoặc 1 tính toán cụ thể
   - Khai báo
-   function <nameFunction>() {
-    //code
+function <nameFunction>() {
+//code
    }
    - Parameter
    - Return value
