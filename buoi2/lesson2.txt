@@ -1,0 +1,37 @@
+1. Giải thích câu lệnh: git init, git add <file_name>, git add ., git commit -m "message"
+---
+git init: Khởi tạo 1 local repository
+git add <file_name>: thêm file_name vào vùng staging area
+git add . : thêm tất cả các file ở working directory vào vùng staging
+git commit -m "message" : commit tất cả các file ở staging area lên local repository với "message"
+---
+
+2. bai 2
+---
+Answer:
+a. Tạo 3 file: file1, file2, file3
+-> Local: file1, file2, file3
+
+b. Chạy lệnh git init
+-> Working directory:  file1, file2, file3
+-> Local repository:
+
+c. Chạy lệnh: git commit -m”init project”
+-> Working Directory: file1, file2, file3
+-> Local repository: 
+
+d. Chạy lệnh: git add file1
+-> Working Directory: file2, file3
+-> Staging Area: file1
+-> Local repository: 
+
+e. Chạy lệnh: git commit -m”add file1”
+-> Working Directory: file2, file3
+-> Staging Area: 
+-> Local repository: file1
+
+
+f. Chạy lệnh: git commit -m”add file”
+-> Working Directory: file2, file3
+-> Staging Area: 
+-> Local repository: file1
