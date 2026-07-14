@@ -1,3 +1,7 @@
 // câu lệnh để cài đặt email và name :
 git config --global user.name "PW - Hoang"
 git config --global user.email "email cua ban"
+
+câu lệnh: ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+lấy nội dung ssh key: cat ~/.ssh/id_rsa.pub
+
